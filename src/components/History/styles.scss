@@ -1,0 +1,23 @@
+.history{
+  background-color: #f7fafe;
+  padding: 15px;
+  &__title{
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 18px;
+    i{
+      margin-right: 15px;
+    }
+  }
+  &__name{
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+  &__list{
+    margin-left: 30px;
+    >div{
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.app{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  &__header{
+    background-color: #f7fafe;
+    padding: 15px;
+  }
+  &__campaigns{
+    width: 70%;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+  }
+  &__history {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
